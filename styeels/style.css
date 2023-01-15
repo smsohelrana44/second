@@ -63,5 +63,25 @@
   .banner-image img{
      width: 980px;
      margin-top: 30px;
+    }
+  /* Team Section */
+  .team-title{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    gap: 30px;
+    margin-left: 80px;
+  }
+  .team-section{
+    display: flex;
+    margin-top: 50px;
+    
+  }
+  .team-description{
+    width: 537px;
+    height: 304px;
+    margin-left: 55px;
+    margin-top: 300px;
+    line-height: 30px;
   }
   
