@@ -115,12 +115,12 @@ span {
 }
 .service-section {
   display: flex;
-  position: relative;
+  
 }
 .btn{
  
   position: absolute;
-  margin-left: 670px;
+  margin-left: 690px;
   margin-top: 1010px;
   
   
@@ -202,4 +202,5 @@ span {
 .image {
   width: 800px;
   margin-right: 20px;
+  position: relative;
 }
