@@ -70,8 +70,7 @@ nav ul li a {
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 30px;
   gap: 30px;
-  margin-left: 300px;
-  
+  margin-left: 200px;
 }
 .team-section {
   display: flex;
@@ -105,69 +104,102 @@ span {
   font-size: 20px;
 }
 /* Service section */
-.service{
-  margin-left: 50px;
+.service {
+  margin-left: 10px;
 }
-.service-section{
+.service p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 20px;
+}
+.service-section {
   display: flex;
+  position: relative;
 }
-.service-title{
+.btn{
+ 
+  position: absolute;
+  margin-left: 670px;
+  margin-top: 1010px;
+  
+  
+}
+.btn1{
+  background-color: #FF900E;
+  padding: 25px 30px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 60px;
+  border-radius: 8px;
+  
+}
+.btn1 p{
+  font-size: 25px;
+  font-weight: 400;
+}
+.service-title {
   margin-top: 50px;
   margin-left: 150px;
-
 }
-.service-section img{
- 
-  margin-top: 50px;
-  
+.service-section img {
+  margin-top: 100px;
 }
-.service-description{
+.service-description {
   
-  margin-top: 200px;
-  margin-left: 50px;
+  margin-left: 20px;
   width: 400px;
+  line-height: 30px;
   
 }
-.feature{
+.service-description p{
+  color:  #727272;
+}
+.feature {
   display: flex;
   width: 480px;
   height: 106px;
-  margin-top: 55px;
+  margin-top: 50px;
+  
 }
-.sohel{
-  width: 10px;
+.sohel {
+  width: 5px;
   height: 100px;
   background-color: #ff900e;
   margin-left: 5px;
   margin-right: 20px;
-  
 }
 
-.div1{
+.div1 {
   padding: 20px;
   margin-top: 100px;
   background-color: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-  border-radius: 8px;   
+  border-radius: 8px;
 }
-.div2{
+.div2 {
   padding: 20px;
   margin-top: 30px;
   background-color: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-  border-radius: 8px;   
+  border-radius: 8px;
 }
-.div3{
+.div3 {
   padding: 20px;
   margin-top: 30px;
   background-color: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-  border-radius: 8px;   
+  border-radius: 8px;
 }
-.div4{
+.div4 {
   padding: 20px;
   margin-top: 30px;
   background-color: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-  border-radius: 8px;   
+  border-radius: 8px;
+}
+.image {
+  width: 800px;
+  margin-right: 20px;
 }
