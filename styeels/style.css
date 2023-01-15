@@ -119,10 +119,10 @@ span {
 }
 .btn{
  
-  position: absolute;
-  margin-left: 690px;
-  margin-top: 1010px;
   
+  position: absolute;
+  margin-right: 660px;
+  margin-top: 1010px;
   
 }
 .btn1{
@@ -133,6 +133,8 @@ span {
   font-weight: 700;
   font-size: 60px;
   border-radius: 8px;
+  margin-left: 700px;
+ 
   
 }
 .btn1 p{
@@ -200,5 +202,6 @@ span {
   border-radius: 8px;
 }
 .image {
+  
   position: relative;
 }
