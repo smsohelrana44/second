@@ -107,7 +107,7 @@ span {
 .service {
   margin-left: 10px;
 }
-.service p{
+.service p {
   font-weight: 400;
   font-size: 16px;
   color: #727272;
@@ -115,18 +115,14 @@ span {
 }
 .service-section {
   display: flex;
-  
 }
-.btn{
- 
-  
+.btn {
   position: absolute;
   margin-right: 60px;
   margin-top: 1010px;
-  
 }
-.btn1{
-  background-color: #FF900E;
+.btn1 {
+  background-color: #ff900e;
   padding: 25px 30px;
   border: none;
   color: #fff;
@@ -134,10 +130,8 @@ span {
   font-size: 60px;
   border-radius: 8px;
   margin-left: 700px;
- 
-  
 }
-.btn1 p{
+.btn1 p {
   font-size: 25px;
   font-weight: 400;
 }
@@ -149,21 +143,18 @@ span {
   margin-top: 100px;
 }
 .service-description {
-  
   margin-left: 20px;
   width: 400px;
   line-height: 30px;
-  
 }
-.service-description p{
-  color:  #727272;
+.service-description p {
+  color: #727272;
 }
 .feature {
   display: flex;
   width: 480px;
   height: 106px;
   margin-top: 50px;
-  
 }
 .sohel {
   width: 5px;
@@ -202,11 +193,59 @@ span {
   border-radius: 8px;
 }
 .image {
-  
   position: relative;
 }
 /* Fact section */
-.fact-section{
+.fact-section {
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 150px;
+  line-height: 40px;
+}
+.fact-title {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact-description {
+  margin-top: 50px;
+  margin-left: 150px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  color: #424242;
+}
+/* Sponsor section */
+.sponsor-detail {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 50px;
+  
+}
+.sponsor-title {
+  text-align: center;
+  margin-top: 50px;
+  width: 400px;
+  height: 100px;
+  margin-left: 500px;
+  line-height: 30px;
+}
+.sponsor-title p{
+  color: #727272;
+}
+/* footer -section */
+.footer-section {
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 5px 25px 5px 25px;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.footer-title {
+  margin-top: 20px;
+  margin-left: 200px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
 }
